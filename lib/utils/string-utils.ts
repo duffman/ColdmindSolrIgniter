@@ -5,14 +5,16 @@
  * February 2019
  */
 
-import * as querystring from "querystring";
-
-export class Encoding {
-	public static encodeUriComponent(value: string) {
+export class StringUtils {
+	/**
+	 * Returns the last character of a given string
+	 * @param value
+	 */
+	public static getLastChar(value: string): string {
 		let result: string = "";
 
-		if (value) {
-			result = querystring.escape(value);
+		if (value && value.length > 0) {
+			result = result[result.length-1];
 		}
 
 		return result;

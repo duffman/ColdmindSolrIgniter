@@ -6,17 +6,17 @@
  */
 
 import * as request               from "request";
-import { ColdmindSolrClient } from "@lib/coldmind-solr-client";
+import { ColdmindSolrClient }     from "@lib/coldmind-solr-client";
+import { ContentType }            from "@lib/types";
 
-export class SolrRequest {
+export class SolrHttpRequest {
 	baseRequest: request;
 	baseOptions: any;
 
 	constructor() {
 		this.baseRequest = request.defaults({
 			headers: {
-//				'content-type': 'application/x-www-form-urlencoded',
-				"Content-Type": "application/json",
+				"Content-Type": ContentType.Json,
 				"User-Agent": "ColdmindSolrClient",
 			},
 			"gzip": false,

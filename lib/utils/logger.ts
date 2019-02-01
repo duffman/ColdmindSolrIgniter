@@ -5,16 +5,12 @@
  * February 2019
  */
 
-import * as querystring from "querystring";
+export class Log {
+	public static info(info: string, data: any): void {
+		console.log("INFO ::" + info, data);
+	}
 
-export class Encoding {
-	public static encodeUriComponent(value: string) {
-		let result: string = "";
-
-		if (value) {
-			result = querystring.escape(value);
-		}
-
-		return result;
+	public static error(info: string, err: Error): void {
+		console.log("ERROR ::" + info, err);
 	}
 }

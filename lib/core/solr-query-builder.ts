@@ -11,11 +11,11 @@ export interface IQuerySegment {
 }
 
 class QuerySegment implements IQuerySegment {
-	constructor(public name: string, value: string);
+	constructor(public name: string, value: string) {}
 }
 
 class RangeSegment {
-	constructor(public name: string, value: string);
+	constructor(public name: string, value: string) {}
 
 	public toString() {}
 }
@@ -27,9 +27,19 @@ export class SolrQueryBuilder {
 		this.segments = new Array<IQuerySegment>();
 	}
 
-	public toString() {
+	public appendSegment(name: string, value: string) {
+		this.segments.push(
+			new QuerySegment(name, value)
+		);
+	}
+
+	public toString(): string {
+		let result: string = "";
+
 		for (let segment of this.segments) {
 
 		}
+
+		return result;
 	}
 }
