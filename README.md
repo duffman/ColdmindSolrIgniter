@@ -1,4 +1,4 @@
-# ColdmindSolrIgniter BETA
+# ColdmindSolrIgniter
 Apache SOLR Client implemented in TypeScript
 
 This is not really a crack shot at re-inventing the wheel, fact is, there is
