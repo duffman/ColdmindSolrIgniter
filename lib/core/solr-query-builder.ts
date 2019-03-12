@@ -5,6 +5,9 @@
  * February 2019
  */
 
+import { ISolrQuery, SolrQuery } from "@lib/core/query/solr-query";
+import { Const } from "@lib/const";
+
 export interface IQuerySegment {
 	name: string;
 	toString(): string;
@@ -20,11 +23,19 @@ class RangeSegment {
 	public toString() {}
 }
 
-export class SolrQueryBuilder {
+export interface ISolrQueryBuilder {
+	all(): ISolrQuery;
+}
+
+export class SolrQueryBuilder implements ISolrQueryBuilder {
 	segments: IQuerySegment[];
 
 	constructor() {
 		this.segments = new Array<IQuerySegment>();
+	}
+
+	public all(): ISolrQuery {
+		return null;
 	}
 
 	public appendSegment(name: string, value: string) {

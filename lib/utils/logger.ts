@@ -6,11 +6,31 @@
  */
 
 export class Log {
-	public static info(info: string, data: any): void {
+	public static withPrefix(prefix: string, name: string, data: any = null): void {
+		prefix = `${prefix} :: ${name}`;
+
+		if (!data) {
+			console.log(prefix);
+
+		} else {
+			prefix += " ::";
+			console.log(prefix, data);
+		}
+	}
+
+	public static out(name: string, data: any = null): void {
+		Log.withPrefix("OUT", name, data);
+	}
+
+	public static info(info: string, data: any = null): void {
 		console.log("INFO ::" + info, data);
 	}
 
-	public static error(info: string, err: Error): void {
-		console.log("ERROR ::" + info, err);
+	public static debug(name: string, data: any = null): void {
+		Log.withPrefix("DEBUG", name, data);
+	}
+
+	public static error(name: string, err: Error = null): void {
+		console.log("ERROR ::" + name, err);
 	}
 }

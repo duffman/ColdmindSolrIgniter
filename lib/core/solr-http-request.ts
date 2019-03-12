@@ -6,7 +6,7 @@
  */
 
 import * as request               from "request";
-import { ColdmindSolrClient }     from "@lib/coldmind-solr-client";
+import { SolrClient }             from "@lib/solr-client";
 import { ContentType }            from "@lib/types";
 
 export class SolrHttpRequest {
@@ -16,7 +16,7 @@ export class SolrHttpRequest {
 	constructor() {
 		this.baseRequest = request.defaults({
 			headers: {
-				"Content-Type": ContentType.Json,
+				"content-type": ContentType.Json,
 				"User-Agent": "ColdmindSolrClient",
 			},
 			"gzip": false,
@@ -28,7 +28,8 @@ export class SolrHttpRequest {
 			'headers': {
 				"Accept-Encoding": "*",
 				"Accept": "*",
-				"content-type": "application/x-www-form-urlencoded",
+				//content-type": "application/x-www-form-urlencoded",
+				"content-type": ContentType.Json,
 				"User-Agent": "TopZap",
 			},
 			'gzip': false
@@ -61,7 +62,11 @@ export class SolrHttpRequest {
 
 	public postData2(url: string, payload: any): Promise<any> {
 		return new Promise((resolve, reject) => {
-			this.baseRequest.post(url, payload, function optionalCallback(err, httpResponse, jsonData) {
+			this.baseRequest.post(url, payload, (err, httpResponse, jsonData) => {
+				console.log("err ::", err);
+				//console.log("httpResponse ::", httpResponse);
+				console.log("jsonData ::", jsonData);
+
 				if (err) {
 					reject(err);
 				} else {

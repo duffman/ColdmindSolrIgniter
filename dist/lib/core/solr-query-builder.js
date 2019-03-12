@@ -21,6 +21,9 @@ class SolrQueryBuilder {
     constructor() {
         this.segments = new Array();
     }
+    all() {
+        return null;
+    }
     appendSegment(name, value) {
         this.segments.push(new QuerySegment(name, value));
     }

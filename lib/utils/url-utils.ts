@@ -5,7 +5,7 @@
  * February 2019
  */
 
-import { Constants }              from "@lib/const";
+import { Const }              from "@lib/const";
 import { StringUtils }            from "@lib/utils/string-utils";
 
 export class UrlUtils {
@@ -15,8 +15,8 @@ export class UrlUtils {
 	 * @returns {string}
 	 */
 	public static ensureTrailingSlash(value: string): string {
-		if (StringUtils.getLastChar(value) !== Constants.URL_SLASH) {
-			value = value + Constants.URL_SLASH;
+		if (StringUtils.getLastChar(value) !== Const.URL_SLASH) {
+			value = value + Const.URL_SLASH;
 		}
 
 		return value;

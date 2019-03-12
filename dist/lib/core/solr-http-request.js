@@ -12,7 +12,7 @@ class SolrHttpRequest {
     constructor() {
         this.baseRequest = request.defaults({
             headers: {
-                "Content-Type": types_1.ContentType.Json,
+                "content-type": types_1.ContentType.Json,
                 "User-Agent": "ColdmindSolrClient",
             },
             "gzip": false,
@@ -22,7 +22,8 @@ class SolrHttpRequest {
             'headers': {
                 "Accept-Encoding": "*",
                 "Accept": "*",
-                "content-type": "application/x-www-form-urlencoded",
+                //content-type": "application/x-www-form-urlencoded",
+                "content-type": types_1.ContentType.Json,
                 "User-Agent": "TopZap",
             },
             'gzip': false
@@ -48,7 +49,10 @@ class SolrHttpRequest {
     }
     postData2(url, payload) {
         return new Promise((resolve, reject) => {
-            this.baseRequest.post(url, payload, function optionalCallback(err, httpResponse, jsonData) {
+            this.baseRequest.post(url, payload, (err, httpResponse, jsonData) => {
+                console.log("err ::", err);
+                //console.log("httpResponse ::", httpResponse);
+                console.log("jsonData ::", jsonData);
                 if (err) {
                     reject(err);
                 }

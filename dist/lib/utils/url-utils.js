@@ -15,8 +15,8 @@ class UrlUtils {
      * @returns {string}
      */
     static ensureTrailingSlash(value) {
-        if (string_utils_1.StringUtils.getLastChar(value) !== const_1.Constants.URL_SLASH) {
-            value = value + const_1.Constants.URL_SLASH;
+        if (string_utils_1.StringUtils.getLastChar(value) !== const_1.Const.URL_SLASH) {
+            value = value + const_1.Const.URL_SLASH;
         }
         return value;
     }

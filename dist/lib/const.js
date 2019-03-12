@@ -7,11 +7,13 @@
  */
 Object.defineProperty(exports, "__esModule", { value: true });
 const types_1 = require("@lib/types");
-var Constants;
-(function (Constants) {
-    Constants.URL_SLASH = "/";
-    Constants.LOCALHOST = "localhost";
-    Constants.LOCALHOST_IP = "127.0.0.1";
-    Constants.DEFAULT_PORT = 8993;
-    Constants.SOLR_DEFAULT_URL = types_1.ServerProtocol.HTTP + Constants.LOCALHOST + ":" + Constants.DEFAULT_PORT.toString() + Constants.URL_SLASH;
-})(Constants = exports.Constants || (exports.Constants = {}));
+var Const;
+(function (Const) {
+    Const.URL_SLASH = "/";
+    Const.LOCALHOST = "localhost";
+    Const.LOCALHOST_IP = "127.0.0.1";
+    Const.DEFAULT_PORT = 8993;
+    Const.SOLR_DEFAULT_URL = types_1.ServerProtocol.HTTP + Const.LOCALHOST + ":" + Const.DEFAULT_PORT.toString() + Const.URL_SLASH;
+    // -- //
+    Const.WILDCARD = "*";
+})(Const = exports.Const || (exports.Const = {}));
