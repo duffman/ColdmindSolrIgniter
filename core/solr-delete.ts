@@ -36,7 +36,7 @@ export class SolrDelete implements ISolrSearch {
 
 		return new Promise((resolve, reject) => {
 			//		request(baseUrl, { json: false }, (err, res, data) => {
-			request(options, { json: false }, (error, response, data) => {
+			request(options, (error, response, data) => {
 				if (error) {
 					reject(error);
 				} else {

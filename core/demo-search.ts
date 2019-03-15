@@ -10,14 +10,12 @@ import { ResponseDataFactory, ISearchResponse } from "../models/search-response"
 import { IResponseHeader, RespHeaderFactory } from "../models/response-header";
 
 export class SolrSearch {
-	constructor() {
-	}
+	constructor() {}
 
 	public search(query: string): Promise<ISearchResponse> {
 		let baseUrl = "http://localhost:8983/solr/zap/select?q=*:*";
 
 		return new Promise((resolve, reject) => {
-
 			request(baseUrl, { json: false }, (err, res, data) => {
 				if (err) {
 					reject(err);
@@ -40,16 +38,20 @@ export class SolrSearch {
 let app = new SolrSearch();
 
 app.search("").then(data => {
+
+
+	 console.log("DATA ::", data);
+
 	/*
 	console.log("responseHeader ::", data.responseHeader);
 	console.log("IResponse ::", data.response);
 	console.log("RES ::", JSON.stringify(data));
 	*/
 
-	let response = ResponseDataFactory.toSearchResponse(data);
-	let jsonData = JSON.stringify(response);
+//	let response = ResponseDataFactory.toSearchResponse(data);
+//	let jsonData = JSON.stringify(response);
 
-
+/*
 	console.log("Num Found ::", response.response.numFound);
 
 	for (let doc of response.response.docs) {
@@ -57,6 +59,7 @@ app.search("").then(data => {
 	}
 
 	console.dir(response, {depth: null, colors: true})
+*/
 
 }).catch(err => {
 	console.log("ERR ::", err);

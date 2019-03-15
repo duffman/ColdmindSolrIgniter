@@ -59,19 +59,28 @@ export class Response implements IResponse {
 
 export class ResponseHeader implements IResponseHeader {
 	constructor (
-		public status?: number;
-	QTime?:  number;
-	params?: IParams;
+		public status: number = -1,
+		public QTime: number = 0,
+		public params: IParams = null
 	) {}
 }
 
 export class Params implements IParams {
-	q?: string;
+	constructor(
+		public q: string = ""
+	) {}
 }
 
-
+/** Factory **/
 
 export namespace ResponseDataFactory {
+	export function createResponse(json: string): ISearchResponse {
+		return new SearchResponse(
+			new ResponseHeader(),
+			new Response(0, 0, [])
+		);
+	}
+
 	export function toSearchResponse(json: string): ISearchResponse {
 		return JSON.parse(json);
 	}

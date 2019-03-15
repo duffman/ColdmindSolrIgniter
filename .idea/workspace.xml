@@ -6,41 +6,41 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="68e3fa6b-bd46-4dc3-8065-8235d22bd72e" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/core/demo-search.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/query-builder.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/solr-delete.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/solr-query.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/demo-settings.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/demo-solrnode.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/post-test.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/solr-test.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/core/query/query-record.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/core/query/solr-query.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/core/solr-transaction.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/solr-client.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/response-header.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/search-response.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reference/query.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reference/test.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/solr-delete2.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/solr-delete3.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/demo-client.ts" beforeDir="false" afterPath="$PROJECT_DIR$/demo/demo-client.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/demo-search.ts" beforeDir="false" afterPath="$PROJECT_DIR$/core/demo-search.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/solr-delete.ts" beforeDir="false" afterPath="$PROJECT_DIR$/core/solr-delete.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/core/demo-search.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/core/demo-search.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/core/query-builder.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/core/query-builder.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/core/solr-delete.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/core/solr-delete.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/core/solr-query.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/core/solr-query.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/demo/clear-index.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/demo/clear-index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/demo/demo-client.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/demo/demo-client.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/lib/coldmind-solr-client.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/lib/coldmind-solr-client.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/demo/demo-settings.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/demo/demo-settings.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/demo/demo-solrnode.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/demo/demo-solrnode.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/demo/lab.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/demo/lab.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/demo/post-test.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/demo/post-test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/demo/solr-test.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/demo/solr-test.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/lib/const.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/lib/const.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/lib/core/query/query-record.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/lib/core/query/query-record.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/lib/core/query/solr-query.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/lib/core/query/solr-query.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/lib/core/solr-http-request.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/lib/core/solr-http-request.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/lib/core/solr-query-builder.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/lib/core/solr-query-builder.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/lib/core/solr-search-result.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/lib/core/solr-search-result.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/lib/core/solr-query-result.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/lib/core/solr-query-result.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/lib/core/solr-result.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/lib/core/solr-result.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/lib/core/solr-transaction.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/lib/core/solr-transaction.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/lib/doc-parser.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/lib/doc-parser.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/lib/solr-client.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/lib/solr-client.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/lib/types.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/lib/types.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/lib/utils/encoding.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/lib/utils/encoding.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/lib/utils/logger.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/lib/utils/logger.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/lib/utils/string-utils.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/lib/utils/string-utils.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/lib/utils/url-utils.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/lib/utils/url-utils.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/coldmind-solr-client.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/const.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lib/const.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/core/solr-http-request.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lib/core/solr-http-request.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/core/solr-query-builder.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lib/core/solr-query-builder.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/core/solr-search-result.ts" beforeDir="false" afterPath="$PROJECT_DIR$/demo/clear-index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/utils/logger.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lib/utils/logger.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/utils/url-utils.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lib/utils/url-utils.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/models/response-header.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/models/response-header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/models/search-response.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/models/search-response.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/search-response.ts" beforeDir="false" afterPath="$PROJECT_DIR$/models/search-response.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -57,22 +57,12 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/demo/demo-client.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="106">
-              <caret line="17" selection-start-line="17" selection-end-line="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/core/demo-search.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3">
-              <caret line="15" column="45" lean-forward="true" selection-start-line="15" selection-start-column="45" selection-end-line="15" selection-end-column="45" />
+            <state relative-caret-position="525">
+              <caret line="37" column="27" selection-start-line="37" selection-start-column="27" selection-end-line="37" selection-end-column="27" />
               <folding>
                 <element signature="e#217#252#0" expanded="true" />
-                <element signature="e#378#597#0" />
               </folding>
             </state>
           </provider>
@@ -81,10 +71,9 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/core/solr-delete.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="49" selection-start-line="42" selection-end-line="49" />
+            <state relative-caret-position="540">
+              <caret line="38" column="28" selection-start-line="38" selection-start-column="28" selection-end-line="38" selection-end-column="28" />
               <folding>
-                <element signature="n#!!doc;n#ISolrSearch#0" />
                 <element signature="e#217#266#0" expanded="true" />
               </folding>
             </state>
@@ -92,9 +81,27 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/solr-delete2.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="450">
+              <caret line="30" column="31" selection-start-line="30" selection-start-column="31" selection-end-line="30" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/core/solr-delete3.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="17" selection-start-line="17" selection-end-line="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/solr-client.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-612">
+            <state relative-caret-position="120">
               <caret line="16" selection-start-line="16" selection-end-line="16" />
               <folding>
                 <element signature="e#220#289#0" expanded="true" />
@@ -104,11 +111,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/models/search-response.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="453">
-              <caret line="62" column="20" lean-forward="true" selection-start-line="62" selection-start-column="20" selection-end-line="62" selection-end-column="20" />
+            <state relative-caret-position="1110">
+              <caret line="74" selection-start-line="74" selection-end-line="74" />
             </state>
           </provider>
         </entry>
@@ -116,7 +123,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/models/response-header.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="322">
+            <state relative-caret-position="690">
               <caret line="46" column="8" selection-start-line="46" selection-start-column="8" selection-end-line="46" selection-end-column="8" />
             </state>
           </provider>
@@ -125,7 +132,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/core/solr-query-builder.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="339">
+            <state relative-caret-position="435">
               <caret line="30" column="30" selection-start-line="30" selection-start-column="30" selection-end-line="30" selection-end-column="30" />
             </state>
           </provider>
@@ -134,7 +141,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/core/query-builder.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1787">
+            <state relative-caret-position="1845">
               <caret line="123" column="61" selection-start-line="123" selection-start-column="61" selection-end-line="123" selection-end-column="61" />
             </state>
           </provider>
@@ -149,24 +156,13 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/core/query/solr-query.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="12" selection-start-line="12" selection-end-line="12" />
-              <folding>
-                <element signature="n#!!doc;n#ISolrQuery#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="TypeScript File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -225,15 +221,17 @@
         <option value="$PROJECT_DIR$/lib/solr-client.ts" />
         <option value="$PROJECT_DIR$/models/i-response-header.ts" />
         <option value="$PROJECT_DIR$/models/response-header.ts" />
-        <option value="$PROJECT_DIR$/core/solr-delete.ts" />
-        <option value="$PROJECT_DIR$/core/demo-search.ts" />
         <option value="$PROJECT_DIR$/models/search-response.ts" />
+        <option value="$PROJECT_DIR$/core/demo-search.ts" />
+        <option value="$PROJECT_DIR$/core/solr-delete.ts" />
+        <option value="$PROJECT_DIR$/core/solr-delete2.ts" />
+        <option value="$PROJECT_DIR$/core/solr-delete3.js" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="45" />
-    <option name="y" value="27" />
+    <option name="x" value="46" />
+    <option name="y" value="50" />
     <option name="width" value="1356" />
     <option name="height" value="798" />
   </component>
@@ -333,10 +331,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="45" y="27" width="1356" height="798" extended-state="0" />
+    <frame x="46" y="50" width="1356" height="798" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26516855" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26516855" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -578,10 +576,70 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/lib/core/solr-search-result.ts" />
+    <entry file="file://$PROJECT_DIR$/core/demo-search.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="37" column="27" selection-start-line="37" selection-start-column="27" selection-end-line="37" selection-end-column="27" />
+          <folding>
+            <element signature="e#217#252#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/solr-delete.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="38" column="28" selection-start-line="38" selection-start-column="28" selection-end-line="38" selection-end-column="28" />
+          <folding>
+            <element signature="e#217#266#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/solr-delete2.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="30" column="31" selection-start-line="30" selection-start-column="31" selection-end-line="30" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/solr-client.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+          <folding>
+            <element signature="e#220#289#0" expanded="true" />
+            <marker date="1552350265707" expanded="true" signature="1867:2784" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/search-response.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1110">
+          <caret line="74" selection-start-line="74" selection-end-line="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/response-header.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="690">
+          <caret line="46" column="8" selection-start-line="46" selection-start-column="8" selection-end-line="46" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/lib/core/solr-query-builder.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="339">
+        <state relative-caret-position="435">
           <caret line="30" column="30" selection-start-line="30" selection-start-column="30" selection-end-line="30" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/query-builder.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1845">
+          <caret line="123" column="61" selection-start-line="123" selection-start-column="61" selection-end-line="123" selection-end-column="61" />
         </state>
       </provider>
     </entry>
@@ -592,64 +650,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/query-builder.ts">
+    <entry file="file://$PROJECT_DIR$/core/solr-delete3.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1787">
-          <caret line="123" column="61" selection-start-line="123" selection-start-column="61" selection-end-line="123" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/core/solr-search-result.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/solr-client.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-612">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-          <folding>
-            <element signature="e#220#289#0" expanded="true" />
-            <marker date="1552350265707" expanded="true" signature="1867:2784" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/models/response-header.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="46" column="8" selection-start-line="46" selection-start-column="8" selection-end-line="46" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/solr-delete.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="49" selection-start-line="42" selection-end-line="49" />
-          <folding>
-            <element signature="n#!!doc;n#ISolrSearch#0" />
-            <element signature="e#217#266#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/demo-search.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3">
-          <caret line="15" column="45" lean-forward="true" selection-start-line="15" selection-start-column="45" selection-end-line="15" selection-end-column="45" />
-          <folding>
-            <element signature="e#217#252#0" expanded="true" />
-            <element signature="e#378#597#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/models/search-response.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="453">
-          <caret line="62" column="20" lean-forward="true" selection-start-line="62" selection-start-column="20" selection-end-line="62" selection-end-column="20" />
+        <state relative-caret-position="255">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
         </state>
       </provider>
     </entry>
