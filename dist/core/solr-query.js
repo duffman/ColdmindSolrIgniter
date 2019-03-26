@@ -1,1 +1,1 @@
-'use strict';Object.defineProperty(exports,'__esModule',{value:true});class SolrQuery{constructor(){}}exports.SolrQuery=SolrQuery;
+'use strict';Object.defineProperty(exports,'__esModule',{value:true});class SolrQueryRec{}exports.SolrQueryRec=SolrQueryRec;class SolrQuery{constructor(){this.records=new Array();}get(field){return this;}range(from,to){return this;}}exports.SolrQuery=SolrQuery;

@@ -11,7 +11,7 @@ export module Const {
 	export const URL_SLASH = "/";
 	export const LOCALHOST = "localhost";
 	export const LOCALHOST_IP = "127.0.0.1";
-	export const DEFAULT_PORT = 8993;
+	export const DEFAULT_PORT = 8983;
 	export const SOLR_DEFAULT_URL = ServerProtocol.HTTP + LOCALHOST + ":" + DEFAULT_PORT.toString() + URL_SLASH;
 
 	// -- //

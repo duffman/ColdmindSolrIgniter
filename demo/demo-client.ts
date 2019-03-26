@@ -5,15 +5,23 @@
  * February 2019
  */
 
+import * as http from "http";
 import { SolrClient }             from "@lib/solr-client";
 import { ServerProtocol }         from "@lib/types";
 import { Const }                  from "@lib/const";
 import { Doc, IDoc, Convert }     from "@lib/doc-parser";
 import { SolrHttpRequest }        from "@lib/core/solr-http-request";
 import { Log }                    from "@lib/utils/logger";
-import * as http from "http";
+import { ISolrResponse }           from '../models/solr-response';
 
-
+export interface IDoc {
+	title:     string[];
+	desc:      string[];
+	code:      string[];
+	thumb:     string[];
+	id:        string;
+	_version_: number;
+}
 
 export class DemoClient {
 	solrClient: SolrClient;
@@ -55,10 +63,6 @@ export class DemoClient {
 			req.end();
 		});
 	}
-
-
-
-
 
 	public searchTechProducts() {
 		this.solrClient.use("zap");
@@ -125,10 +129,6 @@ export class DemoClient {
 			Log.error("execute :: ", err);
 		});
 
-
-
-
-
 		/*
 		const request = require('request');
 
@@ -181,10 +181,27 @@ export class DemoClient {
 	public cp() {
 		let client = new SolrClient();
 
-		let url  = "http://localhost:8983/solr/zap/select?q=name:The";
+		//let url  = "http://localhost:8983/solr/zap/select?q=name:The";
+
+		let url = "https://topzap.com/solr/topzap/select?q=*%3A*";
 
 		client.executeUrl(url).then(res => {
-			console.log("CPCP ::", res);
+			console.log("CPCP ::", typeof res);
+
+			let doc = JSON.parse(res) as ISolrResponse<IDoc>;
+
+			if (doc.response.numFound < 1) {
+				console.log("No hits");
+				return;
+			}
+
+			for (let res of doc.response.docs) {
+				console.log("DOC ::", res);
+			}
+
+			//let res =
+
+
 		}).catch(err => {
 			console.log("ERR ::", err);
 		});
@@ -193,6 +210,6 @@ export class DemoClient {
 
 let client = new DemoClient();
 //client.searchTechProducts();
-client.addItems();
+//client.addItems();
 
-//client.cp();
+client.cp();

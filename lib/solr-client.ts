@@ -32,8 +32,15 @@ export class SolrClient implements IColdmindSolrClient {
 		this.collection = collection;
 	}
 
-	private compileUrl(): string {
-		return this.protocol + this.host + ":" + this.port + Const.URL_SLASH;
+	public compileUrl(): string {
+		let url = this.protocol + this.host + ":" + this.port + Const.URL_SLASH + "solr/";
+		if (this.collection) {
+			url = url +  this.collection + Const.URL_SLASH
+		}
+
+		console.log("URL >>>", url);
+
+		return url;
 	}
 
 	public showDebug(): void {
@@ -42,14 +49,33 @@ export class SolrClient implements IColdmindSolrClient {
 	}
 
 
-	public executeUrl(url: string): Promise<ISolrQueryResult> {
+	public executeReq(url: string): Promise<ISolrQueryResult> {
+		return new Promise((resolve, reject) => {
+			resolve();
+		});
+	}
+
+	public executeResp(url: string): Promise<ISolrQueryResult> {
 		let solrRequest = new SolrHttpRequest();
 
 		return new Promise((resolve, reject) => {
 			solrRequest.postData(url, null, false).then(res => {
-				console.log("DATA ::", res);
+				resolve(res);
 			}).catch(err => {
 				Log.error(this.constructor.name + " :: execute :: ", err);
+				reject(err);
+			});
+		});
+	}
+
+	public executeUrl(url: string): Promise<string> {
+		let solrRequest = new SolrHttpRequest();
+
+		return new Promise((resolve, reject) => {
+			solrRequest.postData(url, null, false).then(res => {
+				resolve(res);
+			}).catch(err => {
+				Log.error("executeUrl :: execute :: ", err);
 				reject(err);
 			});
 		});

@@ -1,0 +1,1 @@
+'use strict';Object.defineProperty(exports,'__esModule',{value:true});var Convert;(function(Convert){function toISuggestResp(json){return JSON.parse(json);}Convert.toISuggestResp=toISuggestResp;function iSuggestRespToJson(value){return JSON.stringify(value);}Convert.iSuggestRespToJson=iSuggestRespToJson;}(Convert=exports.Convert||(exports.Convert={})));

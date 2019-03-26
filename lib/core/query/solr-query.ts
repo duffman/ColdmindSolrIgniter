@@ -5,11 +5,22 @@
  * March 2019
  */
 
-export interface ISolrQuery {
+export class SolrQueryRec {
+
 }
 
-export class SolrQuery implements ISolrQuery {
-	public field: string;
+export class SolrQuery {
+	records: SolrQueryRec[];
 
-	constructor() {}
+	constructor() {
+		this.records = new Array<SolrQueryRec>();
+	}
+
+	public get(field: string): SolrQuery {
+		return this;
+	}
+
+	public range(from: string, to: string): SolrQuery {
+		return this;
+	}
 }

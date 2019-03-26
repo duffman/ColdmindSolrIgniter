@@ -5,8 +5,9 @@
  * February 2019
  */
 
-import { ISolrQuery, SolrQuery } from "@lib/core/query/solr-query";
 import { Const } from "@lib/const";
+
+export interface ISolrQuery {}
 
 export interface IQuerySegment {
 	name: string;
